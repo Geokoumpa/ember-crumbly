@@ -1,8 +1,45 @@
+/*jshint node:true*/
 module.exports = {
   scenarios: [
     {
       name: 'default',
       dependencies: { }
+    },
+    {
+      name: 'ember-1.11',
+      dependencies: {
+        'ember': '~1.11.0'
+      },
+      resolutions: {
+        'ember': '~1.11.0'
+      }
+    },
+    {
+      name: 'ember-1.12',
+      dependencies: {
+        'ember': '~1.12.0'
+      },
+      resolutions: {
+        'ember': '~1.12.0'
+      }
+    },
+    {
+      name: 'ember-1.13',
+      dependencies: {
+        'ember': '~1.13.0'
+      },
+      resolutions: {
+        'ember': '~1.13.0'
+      }
+    },
+    {
+      name: 'ember-2.0',
+      dependencies: {
+        'ember': '~2.0.0'
+      },
+      resolutions: {
+        'ember': '~2.0.0'
+      }
     },
     {
       name: 'ember-release',
